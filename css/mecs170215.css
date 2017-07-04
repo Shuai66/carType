@@ -1,0 +1,115 @@
+/*页面顶部*/
+.merber-top-mrap{ background: #0054a7; text-align: center; color:#fff; font-size: 18px; height: 40px; line-height: 40px; position: relative;}
+.merber-top-mrap em{ display:block; position:absolute;top:0;left:0;height:40px;width:40px;border-right:1px solid #1961A9;}
+.merber-top-mrap em:after {width: 16px;height: 16px;position: absolute;top: 50%;left: 50%;margin: -9px 0 0 -4px; -ms-transform: rotate(-45deg);transform: rotate(-45deg);background: none;border-top: 1px solid #eae8e8;border-left: 1px solid #eae8e8;content: "";}
+
+/*底部标识*/
+.marber-borrom-mrap{ background: #f7f7f7;padding: 15px 0;text-align: center;}
+.positinon-mrap{position: fixed;bottom:0;left:0;right:0; z-index: 5;}
+.marber-borrom-mrap .san-mrap{ margin: 0 auto; height: 16px; display: inline-block; overflow: hidden; font-size: 14px;}
+.marber-borrom-mrap .san-mrap a{ display: block; float: left; margin-left: -1px; padding: 0 10px; height: 16px; line-height: 16px; border-left: 1px solid #d6d6d6;}
+.marber-borrom-mrap p { color:#b8b8b8; font-size: 12px;}
+
+/*导航*/
+.nav-mrap{ width: 100%;}
+.nav-mrap:after{ content: "."; display: block; height: 0; overflow: hidden; clear: both;}
+.nav-mrap li{ width: 25%; float: left; font-size: 14px; }
+.nav-mrap li a{ display: block; border-left: 1px solid #dedede; border-top: 1px solid #dedede;text-align: center; font-size: 14px; height: 33px; line-height: 33px;}
+.nav-mrap li.on a{ color:#0054a7; font-weight: bolder;}
+
+/*线*/
+.divider {display:block;border-top: 1px solid #dedede;background: #f5f4f2;height: 7px;}
+.divider-margin20 { margin: 20px 0;}
+/*标题*/
+.title-mrap{ padding: 0 10px;}
+.title-mrap div{ border-bottom: 1px solid #dedede; font-size: 16px; line-height: 40px; height: 40px; font-weight: 700;}
+.title-mrap div.blue{ border-bottom: none; background: #e5ecf4; color: #3696F5; text-indent: 10px;}
+/*加载更多*/
+.addmore{ color:#818080; background: #f4f4f4; font-size: 14px; height: 28px; line-height: 28px; text-align: center; display: block; margin: 15px 10px;}
+
+/*点击查看轮播大图*/
+
+.allpic{width: 100%;height: 100%;background: rgba(0,0,0,.5);position:fixed;z-index: 9999;display: none;top: 0;left: 0;}
+.allpic .show img{display: inline-block;width: 100%;height: auto;transform: translate(0,-50%);top: 50%;position: absolute;}
+.allpic .show{position: relative;};
+
+/*Banner*/
+.banner-mrap{ padding: 10px 10px 0;}
+.banner-mrap img{ display: block; width: 100%;}
+
+/*图片列表*/
+.imgs-mrap{ padding: 0 9px;}
+.imgs-mrap:after{ content: "."; display: block; height: 0; overflow: hidden; clear: both;}
+.imgs-mrap .solitary-mrap{ width: 50%; float: left; margin-top: 10px;}
+.imgs-mrap .solitary-mrap .img-box{ width: 0; height: 0; padding: 33.3% 50%; position: relative; float: left;}
+.imgs-mrap .solitary-mrap .img-box div{ position: absolute;top:0;left:2px;right:2px;bottom:0;}
+.imgs-mrap .solitary-mrap .img-box div img{ width: 100%; height: 100%;}
+.imgs-mrap .solitary-mrap p{ font-size: 14px; line-height: 25px; text-align: center; color:#666;}
+
+/*文章列表*/
+.article-mrap{ padding: 10px 10px 0;}
+.article-mrap ul li { padding: 15px 0;position: relative;border-bottom: 1px solid #eaeaea;}
+.article-mrap ul li:after{ content: "."; display: block; clear: both; overflow: hidden; height: 0;}
+.article-mrap ul li .img-mrap{ padding: 11.3% 17%; width: 0; height: 0; float: left; position: relative;}
+.article-mrap ul li .img-mrap .img-box{ position: absolute;top:0;left:0;right:0;bottom:0;}
+.article-mrap ul li .img-mrap .img-box img{ width: 100%; height: 100%;}
+.article-mrap ul li .text-mrap { display: table-cell;}
+.article-mrap ul li .text-mrap h1{ font-size: 16px;line-height: 22px; height: 44px; overflow: hidden; padding-left: 10px;}
+.article-mrap ul li .text-mrap h1 a{ color:#666;}
+.article-mrap ul li p{ padding-left: 10px; font-size: 14px; position: absolute; left:34%;right:0;bottom:15px;}
+.article-mrap ul li p span{ color:#ff6600;display: inline-block;float: left;width: 43px;height: 19px;overflow: hidden;}
+.article-mrap ul li p .meta{ color:#999; margin-right: 10px; width: 80px;}
+.article-mrap ul li p em{ display: inline-block; float: right; background: url("../images/icon.png") no-repeat 0 1px; padding-left: 20px;color:#658DDE;}
+
+/*参数*/
+.parameter-mrap{ font-size: 14px; padding: 0 10px;}
+.parameter-mrap ul li{ margin: 7px 0; padding-left: 10px;}
+.parameter-mrap ul li em{ display: block; float: left; color:#666;}
+.parameter-mrap ul li div{ display: table-cell; color:#666;}
+.parameter-mrap ul li div.red{ color: #F60000;}
+.parameter-mrap ul li a{ color: #3696F5; text-decoration: underline;}
+
+/*新款*/
+.newstyle-mrap { padding: 0 10px;}
+.newstyle-mrap .newstyle-solitary{ border-bottom: 1px dashed #dedede; padding: 10px 0;}
+.newstyle-mrap .newstyle-solitary:after{ content: "."; display: block; clear: both; overflow: hidden; height: 0;}
+.newstyle-mrap .newstyle-solitary span{ float: right; display: block; color: #F60000; margin-left: 10px; line-height: 25px; font-size: 16px;}
+.newstyle-mrap .newstyle-solitary div{ display: table-cell;}
+.newstyle-mrap .newstyle-solitary div a{ display: block; height: 25px; overflow: hidden; line-height: 25px; font-size: 16px;}
+.newstyle-mrap .newstyle-solitary .l{ float: left; color:#999; font-size: 12px; margin-top: 5px;}
+.newstyle-mrap .newstyle-solitary .r{ float: right; color:#999; font-size: 12px; margin-top: 5px;}
+
+/*品牌*/
+.seller-mrap{padding: 20px 10px;}
+.seller-mrap:after{ content: "."; display: block; clear: both; overflow: hidden; height: 0;}
+.seller-mrap .img-box{ width: 125px; float:left; margin: 5px 10px 0 0;}
+.seller-mrap .img-box img{ width: 100%;}
+.seller-mrap .text-mrap{ display: table-cell;}
+.seller-mrap .text-mrap h1{ font-size: 16px; line-height: 22px;}
+.seller-mrap .text-mrap p span{ background: #bfbfbf; font-size: 12px; display: inline-block; color:#FFF; padding: 1px 3px; margin:5px 5px 0 0;border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; -o-border-radius:4px; -ms-border-radius:4px;}
+.seller-mrap .text-mrap p { font-size: 16px; color: #F60000; margin-top: 5px;}
+.seller-mrap .text-mrap p a{ font-size: 14px; color: #3696F5; text-decoration: underline;}
+
+/*图片页面列表*/
+.imgsa-mrap{ padding: 15px 10px 5px; border-bottom: 1px solid #dedede; margin-bottom: 10px;}
+.imgsa-mrap:after{ content: "."; display: block; clear: both; overflow: hidden; height: 0;}
+.imgsa-mrap a{ color: #333; display: block; float: left; margin:0 10px 0 0; font-size: 16px; line-height: 22px;}
+.imgsa-mrap a em{ display: inline-block; background: url("../images/rig.png") no-repeat 50% 50%; margin:0 0 0 2px; width: 16px; height: 22px; float: right;}
+.imgtitle-mrap{ padding: 0 10px 5px;}
+.imgtitle-mrap span{ color:#999;}
+.imgs-list{ padding: 0 9px; margin-bottom: 20px;}
+.imgs-list .solitary-mrap:after{ content: "."; display: block; clear: both; overflow: hidden; height: 0;}
+.imgs-list .solitary-mrap .img-box{ width: 0; height: 0; padding:11.1% 16.6%;position: relative; float:left;}
+.imgs-list .solitary-mrap .img-box div{ position: absolute;top:2px;left:2px;right:2px;bottom:2px;}
+.imgs-list .solitary-mrap .img-box div img{ height: 100%; width: 100%;}
+
+/*参配页面*/
+.configure-table-mrap{ padding: 15px 10px;}
+.configure-table{ width: 100%;}
+.configure-table tr th{ background: #e8e9ee; color:#999; border:1px solid #e8e9ee; padding: 5px; font-size: 16px;}
+.configure-table tr td{ border:1px solid #e8e9ee; padding: 10px; font-size: 14px; color:#666;}
+.configure-table tr td.l{ width: 130px; color:#999; text-align: center;}
+.configure-table tr td p{ color: #F60000; margin-bottom: 5px;}
+.configure-table tr td a{ color: #3696F5; text-decoration: underline;}
+.configure-table tr td .a-box{ border:1px solid #3696F5; color: #3696F5; text-decoration: none; padding: 1px 10px;border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; -o-border-radius:4px; -ms-border-radius:4px;}
+
